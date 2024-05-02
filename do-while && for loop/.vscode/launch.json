@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/c langauge/C-language/do-while && for loop",
-      "program": "d:/c langauge/C-language/do-while && for loop/build/Debug/outDebug",
+      "cwd": "d:/c langauge/do-while && for loop",
+      "program": "d:/c langauge/do-while && for loop/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
