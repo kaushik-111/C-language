@@ -3,7 +3,7 @@
 int main() {
     float units, bill;
 
-    printf("Enter the total number of units consumed: ");
+    printf("Enter the total number of units : ");
     scanf("%f", &units);
 
     if (units <= 50) {
