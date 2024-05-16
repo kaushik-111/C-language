@@ -19,33 +19,40 @@
 // Output:
 // Average of an Array: 3.88
 
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+int main()
+{
 
-    int size_of_row , size_of_col ;
+    int size_of_row, size_of_col;
 
     printf("Enter Size Of Row : - ");
-    scanf("%d",&size_of_row);
+    scanf("%d", &size_of_row);
 
     printf("Enter Size Of Col : - ");
-    scanf("%d",&size_of_col);
+    scanf("%d", &size_of_col);
 
-    int array [size_of_row] [size_of_col] , count = 0;
-    float sum = 0 , average = 0;
-    for(int row = 0; row < size_of_row; row++){
-        for(int col = 0; col < size_of_col; col++){
-            printf("Enter Elemant [%d] [%d]:-",row,col);
-            scanf("%d",&array[row][col]);
+    int array[size_of_row][size_of_col], count = 0;
+    float sum = 0, average = 0;
+    for (int row = 0; row < size_of_row; row++)
+    {
+        for (int col = 0; col < size_of_col; col++)
+        {
+            printf("Enter Elemant [%d] [%d]:-", row, col);
+            scanf("%d", &array[row][col]);
         }
         printf("\n");
-}    for(int row = 0; row < size_of_row; row++){
-        for(int col = 0; col < size_of_col; col++){
-            count++;
-            sum = sum + array[row][col];
-            average = sum / count;
+    }
+    for (int row = 0; row < size_of_row; row++)
+    {
+        for (int col = 0; col < size_of_col; col++)
+        {
            
+            sum = sum + array[row][col];
+             count++;
+            average = sum / count;
         }
-}printf("Average of an Array : - %f",average);
+    }
+    printf("Average of an Array : - %f", average);
 
     return 0;
 }
