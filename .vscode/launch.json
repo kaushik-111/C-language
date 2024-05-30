@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/c langauge/C-language/Filament",
-      "program": "d:/c langauge/C-language/Filament/build/Debug/outDebug",
+      "cwd": "d:/c langauge/C-language/Indicator",
+      "program": "d:/c langauge/C-language/Indicator/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
